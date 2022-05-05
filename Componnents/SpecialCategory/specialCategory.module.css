@@ -1,0 +1,53 @@
+.specialCat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin:5% 0;
+    flex-wrap: wrap;
+ 
+}
+.productCat{
+    width: 70%;
+    height: 100%;  
+}
+ .titleCat{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25%;
+        text-align:center;
+        height:100%;
+        flex-wrap: wrap;
+        margin: 2%;
+      
+    }
+    .titleCat .text{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+@media (max-width:640px){
+   
+    .titleCat .text{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .productCat{
+        width: 100%;
+        height: 100%;  
+    }
+     .titleCat{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            text-align:center;
+            height:100%;
+            flex-wrap: wrap;
+            margin: 2%;
+          
+        }
+ 
+}
